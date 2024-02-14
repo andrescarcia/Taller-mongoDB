@@ -10,7 +10,7 @@
 // https://www.mongodb.com/docs/mongodb-vscode/playgrounds/
 
 
-// Select the database to use.
+// // Select the database to use.
 use('sample_restaurants');
 
 

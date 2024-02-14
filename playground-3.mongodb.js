@@ -53,5 +53,12 @@ db.listingsAndReviews.aggregate(
         },
         {
           "$limit": 5
+        },
+        {
+          "$project": {
+            "_id": 0,
+            "amenity": "$_id",
+            "count": 1
+          }
         }
       ])
